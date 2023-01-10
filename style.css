@@ -1,0 +1,68 @@
+body{
+    background-color: antiquewhite;
+}
+
+h1{
+    font-family: lato;
+    text-align: center;
+}
+
+div h2{
+    font-size: 30px;
+}
+
+div{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 20px;
+}
+
+#playerTotalScore1, #playerTotalScore2 {
+    font-size: 30px;
+    color: red;
+}
+
+#display{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+
+#newGame{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#dice{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#hold{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#deDisplay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    background-color: aliceblue;
+    background-image: url(/image/dé.png);
+    background-position: -510px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px black;
+    font-size: 80px;
+    text-align: center;
+}
